@@ -32,7 +32,11 @@ Building from source
 Requirements:
  -  Java 6 or newer (JDK, http://www.oracle.com/technetwork/java/javase/downloads/index.html)
  -  ant
+ -  安装依赖：
+```
+sudo apt-get install ant openjdk-8-jdk openjdk-8-jre -y
 
+```
 Clone the repository. The `--recursive` flag is required to pull in the [jMAVlib](https://github.com/PX4/jMAVlib) submodule).
 ```
 git clone --recursive https://github.com/PX4/FlightPlot.git
@@ -56,3 +60,8 @@ Run:
 java -jar out/production/flightplot.jar
 ```
 
+## mac下载链接
+[mac download](https://github.com/PX4/FlightPlot/releases/download/0.3.2/flightplot.app.zip)
+
+## linux jar 下载链接
+[linux download](https://github.com/PX4/FlightPlot/releases/download/0.3.2/flightplot.jar.zip)
